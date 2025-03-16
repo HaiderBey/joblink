@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style-signup.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+        <button id="indexBtn" class="navimg">
+            <img src="images/logo.png" alt="JobLink" style="width: 100px; height: auto;">
+        </button>
+        </div>
+        <div class="nav-right">
+        <button id="offersBtn" class="navbutton">Offers</button>
+        <button id="signupBtn" class="navbutton">Sign up</button>
+        <button id="signinBtn" class="navbutton">Sign in</button>
+        </div>
+    </nav> 
+    <div class="signup">
+        <h2>Sign Up</h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="text" placeholder="Surname" required>
+            <input type="text" placeholder="userName" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Adresse" required>
+            <input type="number" placeholder="ZIP" required>
+            <input type="number" placeholder="tel">
+            
+            <div class="gender">
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="other"> Other</label>
+            </div>
+            
+
+            <button type="submit">Sign up</button>
+        </form>
+    </div>
+    
+
+    
+</body>
+</html>

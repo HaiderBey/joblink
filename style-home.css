@@ -1,0 +1,116 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 550px;
+    background-color:silver;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.nav-right{
+    display: flex;
+    gap: 15px;
+    padding-right: 10%;
+}
+
+.navbutton {
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    justify-content: center;
+}
+.navimg{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 10px;
+}
+
+.navbutton:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+ .home-img img {
+    
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.description{
+    padding: 10px;
+    background-color: rgb(95, 171, 215); 
+    color: white; 
+    text-align: center; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 20px; 
+   
+}
+.description p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 27px;
+}
+
+
+ .categorie1, .categorie2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+}
+
+.jobs img{
+    width: 100px; 
+    height: 100px;
+    border-radius: 8px; 
+    margin-left: 27px;
+}
+
+.jobs h4{
+    margin-top: 10px;
+}
+
+
+
+
+
+
